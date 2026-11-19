@@ -41,7 +41,6 @@ services:
     environment:
       - PORT=8080
       - REDIRECT_TARGET=mydomain.net
-      - VIRTUAL_PORT=8080
 ```
 
 ### Build the image yourself ###
