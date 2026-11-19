@@ -11,7 +11,7 @@ _Hint: This repo was forked from https://github.com/MorbZ/docker-web-redirect._
 - Lightweight: Uses only ~2 MB RAM on Linux
 - Keeps the URL path and GET parameters
 - Permanent redirect (HTTP 301)
-- Image Size only ~25MB
+- Image Size only ~65MB
 - Image runs for security reasons with non-root user
 
 ## Usage ##
