@@ -9,6 +9,7 @@ RUN apk add --update bash \
 	&& chmod g+w /run \
 	&& sed -i 's/user  nginx;//g' /etc/nginx/nginx.conf \
     && touch /run/nginx.pid \
+    && chmod -R g+w        /run/nginx.pid \
     && chown -R nginx:root /run/nginx.pid \
 	&& chmod +x /usr/local/bin/start.sh
 
