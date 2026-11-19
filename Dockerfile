@@ -1,4 +1,4 @@
-FROM nginx:1.17-alpine
+FROM nginx:1.31-alpine
 
 COPY start.sh /usr/local/bin/
 
@@ -12,6 +12,6 @@ RUN apk add --update bash \
 
 EXPOSE 8080
 
-USER 1000
+USER nginx
 
 CMD ["start.sh"]
