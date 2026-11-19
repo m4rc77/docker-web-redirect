@@ -1,7 +1,5 @@
 # Docker-Web-Redirect #
 
-![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/m4rc77/docker-web-redirect) 
-![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/m4rc77/docker-web-redirect) 
 ![Docker Pulls](https://img.shields.io/docker/pulls/m4rc77/docker-web-redirect)
 ![Docker Stars](https://img.shields.io/docker/stars/m4rc77/docker-web-redirect)
 
